@@ -1,0 +1,106 @@
+.image{
+	background-image: url("file:///M:/PICTURES/Photoshop%20Express/PSX_20190916_102208.jpg");
+	padding: 0px;
+	background-repeat: repeat;
+	background-position: left;
+	background-size: cover;
+	height: 700px;
+	width: 500px;
+	position: relative;
+	margin: 0;
+
+	
+}
+
+.image1{
+	height: 220px;
+	width: 250px;
+	padding: 5px;
+	box-shadow: lightgray;
+	border-radius: 8px;
+	margin: 25px;
+	background-color: darkred;
+
+}
+
+
+
+.text{
+	text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+.block1{
+	float: left;
+	width: 45%;
+	margin: 0;
+}
+
+.block2
+{
+	font-family: monospace;
+	font-size: 80px;
+	color: darkred;
+}
+
+div{
+	margin: 0;
+}
+
+mark{background-color: darkred;
+	color: white;
+
+}
+
+header{
+	background-color: darkred;
+	height: 100px;
+
+}
+
+dl{
+	list-style: none;
+
+}
+
+li{
+	display: inline-block;
+	padding: 8px;
+	background-color: darkred;
+	color: white;
+
+}
+
+nav{
+	text-align: center;
+	background-color: white;
+}
+
+
+ li:hover  {
+      
+      background-color: white;
+      color: darkred;
+}
+
+footer{
+	height: 50px;
+	background-color: darkred;
+	padding: 5px;
+	text-align: center;
+}
+
+.image1:hover{
+	transform: scale(2,1.5);
+	transition: .3s transorm;
